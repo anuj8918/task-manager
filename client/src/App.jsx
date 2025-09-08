@@ -5,8 +5,9 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
 import { Toaster } from 'react-hot-toast';
+import Footer from './components/Footer';
 
-// A wrapper for routes that require authentication
+// A wrapper for routes that need authentication
 const PrivateRoute = ({ children }) => {
     const { user, loading } = useContext(AuthContext);
 
@@ -42,6 +43,7 @@ function App() {
                     }
                 />
             </Routes>
+            <Footer/>
         </Router>
     );
 }

@@ -1,20 +1,21 @@
-// server.js
 const express = require('express');
 const dotenv = require('dotenv');
 const cors = require('cors');
 const mongoose = require('mongoose');
 
-// Route files
 const authRoutes = require('./routes/authRoutes');
 const taskRoutes = require('./routes/taskRoutes');
 
-// Load env vars
 dotenv.config();
 
 // Connect to Database
 const connectDB = async () => {
     try {
-        await mongoose.connect(process.env.MONGO_URI);
+        await mongoose.connect(process.env.MONGO_URI, {
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
+            tls: true,   // ensure TLS
+        });
         console.log('MongoDB Connected...');
     } catch (err) {
         console.error(err.message);
@@ -29,7 +30,7 @@ const app = express();
 app.use(cors()); // Enable CORS
 app.use(express.json()); // Body parser
 
-// Mount routers
+// routers
 app.use('/api/auth', authRoutes);
 app.use('/api/tasks', taskRoutes);
 
