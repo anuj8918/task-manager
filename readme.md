@@ -1,6 +1,6 @@
-# 📝 Task Manager - MERN/Next.js App
+# 📝 Task Manager - MERN App
 
-A full-stack Task Management Web App built with **Next.js 14, Express, MongoDB, and TailwindCSS**.
+A full-stack Task Management Web App built with **React, Express, MongoDB, and TailwindCSS**.
 Users can register, log in, and manage their personal tasks with authentication and authorization.
 
 🔗 **Deployed App:** [Task Manager Live](https://task-manager-delta-puce.vercel.app/)
@@ -36,8 +36,8 @@ Users can register, log in, and manage their personal tasks with authentication 
 
 ### 4. Frontend
 
-* Built with **Next.js 14 (App Router)**
-* **TailwindCSS + Shadcn UI** for clean, responsive UI
+* Built with **React**
+* **TailwindCSS** for clean, responsive UI
 * Pages:
 
   * Login / Register
@@ -45,17 +45,11 @@ Users can register, log in, and manage their personal tasks with authentication 
   * Task Form (Create/Edit)
 * Proper **loading & error states**
 
-### 5. Bonus
-
-* **Deployed on Vercel** with MongoDB Atlas
-* Used **React Query** for data fetching & caching
-* **Optimistic updates** for task actions
-
 ---
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** Next.js 14, React, TailwindCSS, Shadcn UI
+* **Frontend:** React, TailwindCSS
 * **Backend:** Node.js, Express.js
 * **Database:** MongoDB Atlas
 * **Auth:** JWT, bcrypt
@@ -112,7 +106,7 @@ cd server
 npm start
 ```
 
-#### Start the frontend (Next.js):
+#### Start the frontend (React):
 
 ```bash
 cd client
