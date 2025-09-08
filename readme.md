@@ -127,7 +127,7 @@ Once both servers are running, open the app in your browser:
 ## 👨‍💻 Author
 
 **Anuj Mishra**
-📧 [anujmishra.dev@gmail.com](mailto:anujm8918@gmail.com)
+📧 [anujm8918@gmail.com](mailto:anujm8918@gmail.com)
 🔗 [LinkedIn](https://www.linkedin.com/in/anuj-mishra-9ba5a2249/)
 
 ---
