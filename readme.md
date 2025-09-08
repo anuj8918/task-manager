@@ -78,7 +78,7 @@ cd client
 npm install
 
 # Install server dependencies
-cd ../server
+cd server
 npm install
 ```
 
@@ -103,7 +103,7 @@ JWT_SECRET=your_jwt_secret
 
 ```bash
 cd server
-npm start
+node server.js
 ```
 
 #### Start the frontend (React):
@@ -119,30 +119,15 @@ npm run dev
 
 Once both servers are running, open the app in your browser:
 
-👉 [http://localhost:3000](http://localhost:3000)
+👉 [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## 📸 Screenshots
-
-* Login / Register Page
-* Dashboard with Tasks
-* Task Form (Create/Edit)
-* Search, Filter, Pagination in action
-
----
-
-## 📤 Submission
-
-* **GitHub Repo:** [https://github.com/anuj8918/task-manager](https://github.com/anuj8918/task-manager)
-* **Live App:** [https://task-manager-delta-puce.vercel.app/](https://task-manager-delta-puce.vercel.app/)
-
----
 
 ## 👨‍💻 Author
 
 **Anuj Mishra**
-📧 [anujmishra.dev@gmail.com](mailto:anujmishra.dev@gmail.com)
-🔗 [LinkedIn](https://linkedin.com/in/anuj-mishra)
+📧 [anujmishra.dev@gmail.com](mailto:anujm8918@gmail.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/anuj-mishra-9ba5a2249/)
 
 ---
